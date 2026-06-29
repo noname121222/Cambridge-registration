@@ -1,0 +1,244 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.container {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  color: white;
+  font-size: 30px;
+  margin-top: 54px;
+}
+.app-foto {
+  width: 540px;
+  height: 324px;
+}
+.app-logo {
+  padding: 15px;
+  margin-left: 45px;
+}
+.logo {
+  width: 176px;
+  height: 54px;
+}
+.app-container {
+  display: flex;
+  gap: 100px;
+  margin: 0px 60px;
+  margin-top: 50px;
+}
+.app-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  width: 100%;
+  height: 620px;
+  padding: 30px 40px;
+  border-radius: 30px;
+  border: 2px solid #1e96fe;
+}
+.app-text {
+  font-size: 34px;
+  font-weight: 700;
+
+  text-align: center;
+
+  color: #050a41;
+}
+.item {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  padding: 6px 0px;
+  width: 100%;
+}
+.app-button {
+  background: linear-gradient(to right, #00c1f6, #1e96fe);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 36px;
+  font-size: 18px;
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+.text {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+}
+.app-option {
+  color: gray;
+}
+.app-tex {
+  width: 200px;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 576px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 20px;
+    margin-top: -30px;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .app-foto {
+    width: 100%;
+    height: 100%;
+  }
+  .app-logo {
+    margin: 0px;
+  }
+  .app-tex {
+    font-size: 34px;
+    text-align: center;
+    width: 350px;
+  }
+  .app-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-box {
+    width: 100%;
+    max-width: 440px;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    height: 100%;
+  }
+  .app-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 20px;
+    margin-top: -30px;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .app-foto {
+    width: 100%;
+    height: 100%;
+  }
+  .app-logo {
+    margin: 0px;
+  }
+  .app-tex {
+    font-size: 46px;
+    text-align: center;
+    width: 450px;
+  }
+  .app-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-box {
+    width: 100%;
+    max-width: 440px;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    height: 100%;
+  }
+  .app-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .app-foto {
+    width: 100%;
+    max-width: 315px;
+    min-width: 260px;
+    height: 189px;
+  }
+  .app-tex {
+    font-size: 50px;
+    width: 100px;
+  }
+  .app-box {
+    width: 100%;
+    max-width: 411px;
+    min-width: 300px;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  .app-container {
+    margin: 0px 30px;
+  }
+  .app-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .app-logo {
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1240px) {
+  .app-foto {
+    width: 100%;
+    max-width: 370px;
+    min-width: 320px;
+
+    height: 196px;
+  }
+  .app-logo {
+    margin-left: 10px;
+  }
+  .app-container {
+    margin: 0px 30px;
+  }
+  .app-container {
+    gap: 200px;
+  }
+  .app-tex {
+    font-size: 60px;
+  }
+  .app-box {
+    width: 100%;
+    min-width: 400px;
+    max-width: 550px;
+    box-sizing: border-box;
+    height: 100%;
+  }
+}
