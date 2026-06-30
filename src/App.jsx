@@ -15,6 +15,7 @@ function App() {
     setCity("");
     setNumber("");
     setPhone("");
+    alert("Регистрация прошла успешно!")
   }
   // Кнопка сделать input пустым
 
